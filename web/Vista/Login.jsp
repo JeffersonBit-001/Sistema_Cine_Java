@@ -80,7 +80,7 @@
                     <span>Ingresa tus datos</span>
                     <input id="correo2" name="correo2" type="email" placeholder="Email">
                     <input id="pass2" name="pass2" type="password" placeholder="Password">
-                    <div class="g-recaptcha" data-sitekey="6Ld3uasqAAAAAOvmtKEcBiueXrVRQnzkc36h2Ffl"></div>
+                    <div class="g-recaptcha" data-sitekey="x"></div>
                     <a id="diseno_contra_olvd" href="#">¿Olvidaste tu contraseña?</a>
                     <div id="#display_button">
                         <button>Ingresar</button>
