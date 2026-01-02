@@ -139,7 +139,7 @@ public class ControladorLogin {
             return false;
         }
         String url = "https://www.google.com/recaptcha/api/siteverify";
-        String secretKey = "6Ld3uasqAAAAABktHWBEqmKFq5nAYYb5YKFE9zgu";
+        String secretKey = "X";
         Map<String, String> params = new HashMap<>();
         params.put("secret", secretKey);
         params.put("response", recaptchaResponse);
