@@ -1,0 +1,389 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 1 set. 2024, 16:28:24
+    Author     : JEFFERSON
+*/
+.jumbotron {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important
+}
+
+
+#mira_trailer{
+    cursor: pointer;
+    
+}
+
+
+.cuerpo_video{
+    
+}
+
+.content_btn_iframe {
+    position: relative;
+    width: 100%;
+    text-align: center; /* Centra el botón */
+    background-color: black;
+    margin-bottom: 50px;
+    max-height: 800px;
+}
+
+.btn_selector {
+    padding: 14rem;
+}
+
+.content_iframe {
+    display: none; /* Inicialmente oculto */
+    z-index: 9999;
+    max-height: 800px;
+    width: 100%/* Asegura que esté sobre otros elementos */
+}
+
+#playVideo{
+    font-size: 25px;
+    background-color: black;
+    color: whitesmoke;
+    border-style: none;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    max-height: 60px;
+}
+
+
+
+
+/*pelicula informacion*/
+
+/*centrar title con ticket de compra*/
+.content_title_ticket_pelicula{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.content_total_informacion{
+    text-align: center;
+}
+
+/*separacion titulo y ticket*/
+.content_tile_descripcion{
+    padding-right: 200px;
+    text-align: justify;
+}
+
+/*decoracion titulo video*/
+.content_tile_descripcion h1{
+    color: red;
+    font-size: 60px;
+    width: 480px;
+    margin: 0;
+    padding: 0;
+}
+
+.content_tile_descripcion p{
+    font-size: 20px;
+}
+
+.comprar_ticket div{
+    font-size: 19px;
+    padding-left: 7px;
+}
+.comprar_ticket{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 119, 0);
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-decoration: none !important;
+    color: white;
+    
+}
+
+.comprar_ticket:hover{
+    box-shadow: 0px 0px 10px 7px rgb(224, 187, 2);
+    transition: all 0.4s linear;
+    color: black !important;
+}
+
+/*Imagen*/
+.img_informacion_descripcion img{
+    max-height: 650px;
+    width: 100%;
+    max-width: 500px;
+}
+
+
+/*decoracion imagen e informacion*/
+.content_imagen_informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*separar informacion*/
+.content_informacion_detallepeli{
+    width: 100%;
+    max-width: 450px;
+    text-align: justify;
+    padding: 40px 40px;
+    background-color: rgb(250, 245, 245);
+    max-height: 540px;
+    border-radius: 20px;
+    align-content: center;
+    box-shadow: 19px 25px 14px 4px orangered;
+}
+
+/*reproducto*/
+.edt_repro{
+    width: 100%;
+    height: 100%;
+    max-width: 120px;
+    max-height: 120px;
+    
+}
+
+
+/*sombreado imagen*/
+.img_informacion_descripcion img{
+    box-shadow: 0px 1px 15px 6px rgb(206, 205, 205);
+}
+
+
+
+
+/*Decoración titulos de informacion*/
+.content_informacion_detallepeli h2{
+    color: red;
+    font-size: 50px;
+    
+    margin-top: 0px;
+}
+
+
+
+.content_informacion_detallepeli h3{
+    color: rgb(133, 18, 18);
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.idioma{
+    display: flex;
+    
+    
+}
+
+.idioma_ind{
+    border-radius: 20px;
+    border-style: groove;
+    border-color:rgb(133, 18, 18); ;
+    padding: 7px;
+   
+    margin-right: 2px;
+    
+    
+}
+
+.idioma_ind2{
+    border-radius: 20px;
+    border-style: groove;
+    border-color:rgb(133, 18, 18); ;
+    padding: 7px;
+    
+}
+/*texto*/
+.text_lind{
+    font-size: 80% !important;
+}
+
+.content_informacion_detallepeli h2{
+    
+}
+
+
+/*Ajustar pantalla*/
+
+@media only screen and (max-width:1230px){
+    
+}
+
+
+@media only screen and (max-width:1000px){
+    .iframe{
+        width: 100%;
+        height: 600px;
+        max-width: 600px
+        /*width: 880px;
+        height: 515px;*/
+    }
+    .content_btn_iframe{
+        height: 100%;
+        align-content: center;
+        /*width: 880px;
+        height: 515px;*/
+    }
+
+
+    .content_title_ticket_pelicula{
+        display: grid;
+        overflow: hidden;
+        justify-items: center;
+    }
+
+
+    
+
+.comprar_ticket{
+        width: 150px;
+    }
+
+
+.content_imagen_informacion{
+        display: grid;
+    }
+
+
+.content_tile_descripcion{
+        padding-left: 175px;
+        margin-bottom: 30px;
+    }
+
+
+.content_informacion_detallepeli{
+        margin-top: 70px;
+    }
+    
+
+}
+
+
+@media only screen and (max-width:570px){
+    
+
+    .content_title_ticket_pelicula{
+        overflow: hidden;
+        
+    }
+
+    .content_tile_descripcion h1{
+        font-size: 30px;
+        width: 260px;
+    }
+
+    .img_informacion_descripcion img{
+        width: 250px;
+        height: 250px;
+    }
+    
+
+    .content_informacion_detallepeli{
+        font-size: 10px;
+        
+        position: relative;
+        
+        height: 80%;
+        width: 300px
+    }
+    .content_informacion_detallepeli h3{
+        font-size: 15px;
+    }
+
+
+    #playVideo{
+        position: relative;
+        max-width: 220px;
+        max-height: 220px;
+        width: 150px;
+        height: 150px
+    }
+    .btn_selector{
+        margin: 0;
+        padding: 0;
+        margin-top: 20%;
+    }
+
+    .iframe{
+        width: 100%;
+    }
+    
+    .edt_repro{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #mira_trailer{
+        font-size: 15px;
+        width: 100%;
+    }
+    
+    
+    .content_btn_iframe{
+       height: 300px
+    }
+    
+    .content_iframe iframe{
+        height: 300px
+    }
+    
+    .btn_selector{
+        margin: 0
+    }
+}
+
+/*edit imagen boots margin*/
+.edit_but{
+    margin-bottom: 0;
+    border-bottom: solid 3px white
+}
+
+
+
+.dis_p {
+    position: relative;
+    display: inline-block;
+}
+
+.decorative-rectangle {
+    position: relative;
+    display: inline-block;
+    padding: 0 0.5em;
+    background: -webkit-radial-gradient(#E20613,#FABD03);
+    border-radius: 10px;
+}
+
+.decorative-rectangle::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+    transform: translateY(-50%);
+    z-index: -1;
+            
+    border-radius: 10px;
+}
+        
+.o_edit{
+    margin-bottom: 16%;
+}
+        
+.jumb_s {
+    background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(./img/carousel-2.jpg), no-repeat center center;
+    background-size: cover;
+}
+          
+.fa-whatsapp{
+    font-size: 6rem;
+    margin: 35px
+}
+          
+.btn_aba{
+    font-size:2rem;
+}

@@ -1,0 +1,324 @@
+/*article{
+	margin-top: 300px;
+}
+
+
+.display_div{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+	margin: 0;
+}
+
+.asientos_chck_section{
+	left: 0;
+	right: 0;
+	width: 100%;
+	margin: 0;
+	position: relative;
+	left: 0;
+	right: 0;
+
+}
+
+.form{
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+}*/
+
+#img_pelicula{
+	border-radius: 50%;
+}
+
+#titulo_peli{
+	font-size: 30px;
+	color: red;
+}
+
+.text_align{
+	text-align: justify;
+
+}
+
+#linea_align{
+	border-bottom: groove 2px gray;
+}
+
+
+.content_img_seleccion img{
+	margin: 10px 40px;
+}
+
+.asientos_chck_section{
+	
+
+}
+
+#form_id{
+	
+}
+
+.contenedor_form_chek{
+	margin: 0 2%;
+
+}
+
+.content_mover_sientos{
+	width: 100%;
+}
+
+
+
+
+
+
+.asientos_chk{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+
+.asientos_chk div{
+	padding: 5px 6px;
+}
+
+
+.responsive_ahora{
+	background-color: #cfcfcf;
+	padding: 1rem 0;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+
+#asientos_disponibles_h4{
+	font-size: 20px;
+	margin: 0;
+	padding: 1rem;
+	color: darkorange;
+	text-shadow: 1px 2px 2px white;
+}
+
+.contenedor{
+	display: flex;
+}
+
+.ordenar_or{
+	margin-left: 3.5%;
+
+}
+
+.ordenar_or p{
+	font-size: 16px;
+	margin: 0;
+	margin-bottom: 16px;
+	text-shadow: 1px 1px 1px black;
+	opacity: 50%;
+}
+
+
+.btn_sala{
+	opacity: 0%;
+}
+
+
+.asientos_chk div{
+	background-color: white;
+	border-radius: 50%;
+}
+
+
+
+.texto_abajo{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+.texto1, .texto2, .texto3,.texto4{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	box-shadow: 0px 1px 2px 1px black;
+}
+
+.texto1{
+	background-color: white;
+
+}
+
+.texto2{
+	background-color: red;
+}
+
+
+.texto3{
+	background-color: purple;
+}
+
+.texto_abajo div{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+.edit{
+	margin: 0 3%;
+}
+
+.edit p{
+	padding: 0 10px;
+}
+
+.text_butacas{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+.text_butacas div{
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+	margin: 0 15%;
+}
+
+
+
+#seleccion_1,#seleccion_2,#seleccion_3,#seleccion_4,#seleccion_5{
+	background-color: white;
+	padding: 1rem;
+	border-radius: 50%;
+}
+
+#seleccion_2,#seleccion_3,#seleccion_4,#seleccion_5{
+	background-color: rgba(100,5,0,0.6);
+	opacity: 70%;
+}
+
+.content_img_seleccion{
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+#contador_seleccionados{
+	font-size: 18px;
+}
+
+
+.title_cancelar{
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+	display: flex;
+}
+
+#cancelar_a{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	background-color: purple;
+	position: relative;
+	right: 30%;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px 3px black;
+
+}
+
+#cancelar_a:hover{
+	box-shadow: 0px 0px 12px 8px gray;
+	transition: all 0.4s linear;
+}
+
+#img_pelicula{
+	animation: img 5s infinite;
+
+}
+
+
+
+@keyframes img {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    50% {
+        transform: perspective(1000px) rotateY(180deg);
+    }
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+#btn_reserva{
+	text-decoration: none;
+	padding: 5px;
+	color: red;
+}
+
+#btn_reserva:hover{
+	box-shadow: 0px 1px 6px 3px red;
+	transition: all 0.4s linear;
+}
+
+
+#precio_seleccionados{
+	font-size: 18px;
+}
+
+#precio_total,#aumento, #precio_total_aumento{
+	font-size: 18px;
+}
+
+
+
+#seleccion_1,#seleccion_2,#seleccion_3,#seleccion_4,#seleccion_5{
+	margin: 0 3%;
+
+}
+
+
+
+
+
+@media only screen and (max-width:1285px){
+
+
+    .content_img_seleccion{
+    	margin-top: 100px;
+    }
+    
+}
+
+
+.cambio_chk input{
+    height: 25px;
+    width: 20px;
+    border-radius: 50%;
+}

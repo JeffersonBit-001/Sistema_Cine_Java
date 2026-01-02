@@ -1,0 +1,71 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 3 set. 2024, 21:47:30
+    Author     : JEFFERSON
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container-general {
+    padding: 20px;
+}
+
+.faq-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.faq-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+.faq-question {
+    padding: 15px;
+    cursor: pointer;
+    background: #f0f0f0;
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
+
+/*letras h2*/
+.faq-question h2{
+    font-size: 25px !important;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .faq-container {
+grid-template-columns: 1fr;
+    }
+}

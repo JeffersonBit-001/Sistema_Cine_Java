@@ -1,0 +1,213 @@
+
+body{
+	margin: 0;
+}
+
+#ctn{
+	position: relative;
+    top: 0px;/*100px*/
+    width: 100%;
+    background-color: #fff;
+    top: 200px;
+    z-index: 9998;
+    transition: all 600ms;
+    margin-bottom: 10px;
+}
+
+
+#input{
+	display: block;
+    width: 61.5%;
+    margin: auto;
+    padding: 10px 5px;
+    font-size: 18px;
+    outline: 0;
+    position: relative;
+    text-align: center;
+
+    top: 200px
+}
+
+.article_acomodar{
+    margin-bottom: 700px;
+    
+}
+
+.pie_pag_web{
+    margin-top: 0;
+
+}
+
+#box{
+	position: absolute;
+    text-align: center;
+    margin-left: -1%;
+    margin-top: 130px;
+}
+
+
+#btn_cine{
+	
+	font-size: 20px;
+	background-color: red;
+
+}
+
+
+.content_total_informacion{
+	margin-top: 300px;
+	display: none;
+
+
+}
+
+.content_imagen_informacion{
+    margin-bottom: 200px;
+}
+
+
+/*ALINEAR TEXTO Y BUSQUEDA*/
+#box li a {
+    display: flex;
+    text-decoration: none;
+}
+
+
+
+
+
+/*Elementos de busqueda*/
+#box{
+    position: absolute;
+    top: 165px;
+    left: 50%;
+    transform: translateX(-48.0%);
+    width: 62%;
+    background-color: #fff;
+    overflow: hidden;
+    padding: 0;
+    display: none;
+}
+
+
+#title_horario{
+    font-size: 60px;
+    color: orange;
+    text-shadow: 1px 4px 8px gray;
+}
+
+#title_pelicula_escoger{
+    font-size: 60px;
+    color: orangered;
+    text-shadow: 1px 4px 8px gray;
+}
+
+#box li{
+    list-style: none;
+    width: 100%;
+    
+}
+#box a{
+    display: block;
+    width: 100%;
+    color: #777777;
+    padding: 15px;
+    font-size: 18px;
+}
+
+#box li a:hover{
+    background-color: #f3f3f3;
+}
+
+
+
+
+.div_sede{
+    background: -webkit-radial-gradient(#ffbfaa,#ff1d0b);
+    padding: 1rem;
+    margin: 50px 20%;
+    border-radius: 50px;
+}
+
+.title_sede{
+    font-size: 30px;
+}
+
+.content_sedes{
+    
+    text-align: center;
+    margin-top: 900px;
+
+}
+
+.horario_Sede{
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    width: 25%;
+    background-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: orangered;
+    color: black;
+    box-shadow: 0px 1px 5px 1px gray;
+    margin: 10px;
+
+}
+
+.fila{
+    display: flex;
+    text-align: center;
+    
+    justify-content: center;
+
+}
+
+
+.div_display{
+    display: none;
+}
+
+.horario_Sede p{
+    margin-right: 10px;
+}
+
+.horario_Sede{
+                text-align: center;
+                align-content: center;
+                align-items: center;
+                justify-content: center;
+                justify-items: center;
+                text-decoration: none;
+            }
+            
+            .horario_Sede p{
+                margin-bottom: 0;
+                padding: 1rem;
+            }
+            
+            .horario_Sede:hover{
+                text-decoration: none;
+            }
+            .title_sede{
+                cursor: pointer;
+            }
+            
+            .edit_enlace{
+                margin: 0;
+                padding: 0;
+                height: 60px
+            }
+            
+            .icon_buscar{
+                margin-right: 10px;
+                filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 1));
+            }
+            
+            .text_busqueda{
+                margin: 0
+            }

@@ -1,0 +1,249 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 6 abr. 2024, 18:31:22
+    Author     : JEFFERSON
+*/
+body{
+    margin: 0;
+}
+
+#fecha{
+    text-align: center;
+}
+.form_registro{
+   
+    background: -webkit-radial-gradient(wheat,#efb810);
+    
+    padding: 2rem;
+    box-shadow: 6px 3px 18px 3px black;
+    border-color: black;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+.form_registro_tot{
+    background:linear-gradient(#E20613,#FABD03);
+    margin: 0 10%;
+    border-radius: 40px;
+    box-shadow: -10px 13px 18px 5px black;
+    padding: 5px 0;
+    margin-top: 250px;
+    
+    
+}
+
+.btn_sala{
+    font-size: 20px;
+}
+
+
+.class_input_form{
+    width: 250px;
+    height: 20px;
+    background:-webkit-radial-gradient(#cfcfcf,white);
+    border-style: none;
+    border-bottom-style:groove; 
+    border-radius: 20px;
+    padding: 4px 7px;
+}
+
+
+.class_input_form:focus{
+    outline: none;
+    border-color: #00BFFF;
+}
+
+.class_input_form2{
+    width: 263px;
+    height: 30px;
+    background:linear-gradient(white,#cfcfcf);
+    border-style: none;
+    border-bottom-style:groove; 
+    border-radius: 20px;
+    padding: 4px 7px;
+}
+
+.class_input_form2:focus{
+    outline: none;
+    border-color: #00BFFF;
+}
+
+
+.class_label_form{
+    text-shadow: 0px 3px 6px black;
+}
+
+
+#session_form{
+    text-align: center;
+    color: white;
+    text-shadow: 0px 3px 4px #efb810;
+    font-size: 35px;
+    
+}
+
+
+.orden_sala_general{
+    margin: 0 10%;
+    margin-bottom: 40px;
+}
+
+
+.asientos_chck_section{
+    font-size: 12px;
+    
+    
+    background-color: #cfcfcf;
+    
+    box-shadow: 1px 1px 8px 3px gray;
+    border-radius: 10px;
+    
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+
+
+
+
+}
+
+
+
+#text_decoration_p_see{
+    color: red;
+    text-shadow: 0px 3px 5px white;
+    text-align: center;
+}
+
+.btn_reservar{
+    font-size: 18px;
+    background: -webkit-radial-gradient(#ff963e,#ff8000);
+    border-style: none;
+    border-radius: 12px;
+
+}
+
+.btn_reservar:hover{
+    box-shadow: 0px 1px 3px 3px #ffdab9;
+}
+
+#h4_asientos_disponibles{
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+#text_reserva_preg{
+    text-align: center;
+}
+
+.flex_div_chk_asientos{
+    margin-bottom: 15px;
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+    position: relative;
+    left: -23%;
+}
+
+
+.flex_asientos{
+    display: flex;
+    float: right;
+    position: relative;
+
+
+}
+
+.btn_sala{
+    position: absolute;
+}
+
+
+.flex_asientos div{
+    padding: 0 3%;
+}
+
+
+form{
+    display: flex;
+    margin: 0 5%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width:1430px){
+
+
+    form{
+        display: block;
+    }
+
+    .asientos_chck_section{
+        width: 80%;
+        margin-top: 80px;
+        padding: 10px;
+    }
+    
+    .form_registro{
+        width: 40%;
+        margin-left: 0;
+        margin-right: 0;
+        position: relative;
+        left: 24%;
+    }
+    
+}
+
+@media only screen and (max-width:855px){
+    .class_input_form{
+        width: 91%;
+    }
+    .class_input_form2{
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .form_registro{
+        left: 11%;
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width:527px){
+    .form_registro{
+        margin: 0;
+        width:80%;
+        position: relative;
+        left: -3%;
+    }
+
+    .form_registro_tot{
+        margin-top: 170px;
+    }
+}
+input{
+    cursor: pointer;
+}
+
+/*input.desactivado {
+    background-color: #312e2e;
+    cursor: not-allowed;
+    border: 1px solid #b0abab;
+}*/
+
+input.desactivado + img {
+    opacity: 0.5;
+    cursor: not-allowed;
+    
+}

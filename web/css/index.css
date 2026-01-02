@@ -1,0 +1,174 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 ago. 2024, 20:04:41
+    Author     : JEFFERSON
+*/
+
+/*CABECERA OPCIONES BANNER*/
+.cabecera_nuevo{
+    background-color: #f80000;
+    border-bottom: 2px solid white;
+    position: fixed;
+    z-index: 999;
+}
+
+/*COLOR LETRA DE LA CABECERA*/
+.name_letra{
+    color: white !important;
+}
+
+.name_letra:hover{
+    color:yellow !important;
+    transition: all 800ms;
+}
+.busqueda{
+    background-color: rgba(0,0,0,0) !important;
+    
+}
+
+/*LOGIN Y BUSQUEDA CABECERA*/
+.display_head{
+    display: flex !important;
+    text-align: center !important;
+    align-content: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+    justify-items: center !important;
+   
+   
+}
+
+.bus:hover{
+    background-color: black !important;
+    transition: all 1.5s;
+}
+
+/* CARRUSEL DESVANECER*/
+.carousel-caption{
+    background: rgba(0,0,0,0.2) !important;
+}
+
+/*imagenn carrusel*/
+.img_edit{
+    filter: brightness(1.1) contrast(1.2) saturate(1.1) !important;
+    transform: scale(1.02) perspective(500px) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+/*texto del slader*/
+.text_title_peli{
+    color: orangered !important;
+    text-shadow: 5px 8px 4px black;
+    margin: 0;
+    text-align: justify;
+    margin-left: 8%  !important;
+    margin-right: 8%  !important;
+    
+    
+}
+
+
+.descrip_text{
+    text-shadow: 5px 8px 4px black;
+    text-align: justify;
+    padding: 0 !important;
+    margin-bottom: 10% !important;
+
+    
+}
+
+/*xq relajarse*/
+#just_hour{
+    text-align: justify
+}
+
+/*texto comprar*/
+.ffs_sol{
+    font-size: 40px !important;
+    margin-right: 2%;
+}
+.text_com{
+   text-decoration: none !important;
+   animation: animation_entrada 5s infinite !important;
+   
+}
+
+
+/*Comprar pelicula slider*/
+#comprar_btn{
+    margin-right: 8px;
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.btn_comprar_caja{
+padding: 20px !important;
+background-color: red !important;
+border-radius: 40px !important;
+border-style: none !important;
+box-shadow: 0px 0px 8px 1px black !important;
+animation: animation_entrada 5s infinite !important;
+text-decoration: none !important;
+
+}
+
+/*Contenedor margen*/
+#regresar_container{
+    margin-top: 0px !important;
+}
+
+
+
+@keyframes animation_entrada{
+    30%, 50%{
+        transform: translateX(-5%);
+    }
+
+    10%,10%{
+        transform: translateX(5%);
+    }
+
+    5%{
+        transform: rotateY(90deg);
+    }
+}
+
+
+/*Zoom img*/
+
+.btn_comprar_caja:hover{
+    box-shadow: 0px 0px 12px 6px red;
+    transition: all 1.5s;
+    color: white !important;
+    background-color: orangered !important;
+    
+}
+
+#otroContenido{
+    background-image: url('./img/img_cine_portada.png') !important;
+}
+
+/*CAMBIO DE IMAGEN INDEX REGISTRO*/
+
+
+@media (max-width: 980px) {
+    .busqueda{
+        position: relative !important;
+        text-align: center !important;
+        
+    }
+    
+    .display_head{
+         margin-left: 20%;
+            margin-right: 20%;
+            background-color: black;
+            border-radius: 20px;
+    }
+    .bus:hover{
+    background-color: #f80000 !important;
+    transition: all 1.5s;
+    }   
+}

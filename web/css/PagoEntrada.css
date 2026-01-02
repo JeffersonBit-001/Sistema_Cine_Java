@@ -1,0 +1,273 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 30 nov. 2024, 16:10:35
+    Author     : JEFFERSON
+*/
+
+#seleccion_1,#seleccion_2,#seleccion_3,#seleccion_4{
+	background-color: rgba(0,74,140,0.6);
+	opacity: 70%;
+}
+
+#seleccion_5{
+	background-color: white;
+	opacity: 100%;
+}
+
+.flex{
+	display: flex;
+	margin-bottom: 20px;
+
+}
+
+.form_pago{
+	text-align: justify;
+	padding: 0 25px;
+}
+
+#num_tarjeta{
+	
+}
+#tipo{
+	margin-left: 15%;
+}
+
+
+#mes{
+	
+}
+
+#año{
+	margin-left: 15%;
+}
+
+#doc{
+	margin-right: 15%;
+}
+
+#doc2_{
+	
+}
+
+#cvv{
+	margin-left: 15%;
+}
+
+
+#num2{
+	margin-left: 15%;
+}
+
+input,select{
+	font-size: 15px;
+	padding: 5px;
+	border-radius: 10px;
+	border-style: none;
+	border-bottom: solid;
+}
+
+h4{
+	margin: 0;
+}
+
+#billetera{
+	margin-bottom: 15px;
+}
+
+.pago_medio{
+	padding: 10px 50px;
+	filter: drop-shadow(1px 8px 5px #004a8c);
+}
+
+.flex_medio{
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+
+}
+
+#btn_reserva{
+	color: whitesmoke;
+	font-size: 17px;
+	padding: 5px;
+}
+
+.input_terminos_condiciones{
+	text-align: justify;
+	padding: 10px 25px;
+}
+
+.recibir_publicidad_condiciones p{
+	margin-left: 4%;
+}
+
+.text_butacas{
+	margin: 0;
+}
+
+
+.esconder_tarjeta{
+	display: none;
+}
+
+.esconder_billetera{
+	display: none;
+}
+
+.circulo{
+	width: 10px;
+	height: 10px;
+	background-color: whitesmoke;
+	margin-right: 3%;
+	border-radius: 50%;
+	border-style: solid;
+}
+
+.flex_title{
+	
+	align-items: center;
+	align-content: center;
+	
+	
+}
+
+#billetera{
+	margin: 0;
+}
+
+.pago{
+	background-color: whitesmoke;
+	padding: 10px;
+	border-radius: 10px;
+	border-style: solid;
+	margin-bottom: 10px;
+}
+
+#comprobante{
+	margin: 0;
+}
+
+#radio2,#radio1{
+	margin-left: 3%;
+}
+
+.content_img_radio p{
+	
+	padding-right: 10%;
+}
+
+#factura:hover{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	z-index: 100;
+	top: 300px;
+	left: 695px;
+	box-shadow: 0 1px 8px 5px black;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#boleta:hover{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	z-index: 100;
+	top: 300px;
+	left: 695px;
+	box-shadow: 0 1px 8px 5px black;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#content_bol_fac{
+	display: none;
+}
+
+h4,#btn_reserva{
+	cursor: pointer;
+}
+
+
+#resumen{
+	margin-top: 10px;
+}
+
+#informacion{
+	position: absolute;
+	background-color: white;
+	position: fixed;
+	top: 170px;
+	width: 50%;
+	height: 65%;
+	margin: 0;
+	z-index: 999;
+	border-radius: 20px;
+	box-shadow: 0px 1px 12px 8px #e0ebff;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+	left: 25%;
+
+
+}
+
+#content_negro{
+	width: 1900px;
+	height: 1200px;
+	background-color: rgba(0,74,140,0.6);
+	position: absolute;
+	position: fixed;
+	z-index: 998;
+	top: 100px;
+	margin: 0;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+
+}
+
+#ordenar_info{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+#ordenar_info h3{
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+	font-size: 15px;
+	margin: 0;
+	margin-right: 6px;
+}
+
+#resumen_compra{
+	color: #004a8c;
+	text-shadow: 0px 1px 1px black;
+}
+
+
+#content_negro{
+	display: none;
+}
+
+#tipo{
+
+}

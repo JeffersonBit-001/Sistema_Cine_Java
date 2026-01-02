@@ -1,0 +1,130 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 30 nov. 2024, 11:41:09
+    Author     : JEFFERSON
+*/
+
+#seleccion_1,#seleccion_2,#seleccion_4,#seleccion_5{
+	background-color: rgba(0,74,140,0.6);
+	opacity: 70%;
+}
+
+#seleccion_3{
+	background-color: white;
+	opacity: 100%;
+}
+
+.content_combos{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+.aumentador_asd{
+	display: flex;
+	background-color: white;
+	border-radius: 10px;
+	padding: 5px;
+	box-shadow: 0px 1px 5px 3px black;
+}
+
+.arre h4{
+	margin: 0;
+}
+
+.arre{
+	margin: 0 10%;
+}
+
+.combo_img:hover{
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.content_combos div{
+	margin: 0 2%;
+}
+
+#btn_reserva{
+	text-decoration: none;
+	padding: 5px;
+	color: #004a8c;
+}
+
+#btn_reserva:hover{
+	box-shadow: 0px 1px 6px 3px #004a8c;
+	transition: all 0.4s linear;
+}
+
+
+#btn_ante{
+	text-decoration: none;
+	background-color: #33d;
+	color: whitesmoke;
+	padding: 8px;
+	border-radius: 20px;
+}
+
+#btn_ante:hover{
+	box-shadow: 0px 0px 7px 5px #f6f6f6;
+	transition: all 0.4s linear;
+}
+
+.text_butacas{
+	margin-top: 50px;
+}
+
+.edit_carrito{
+    
+}
+
+#carrito{
+    display: block;
+    position: relative;
+    right:0;
+
+    top:100%;
+    z-index: 10 !important;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+    margin-top: 20px;
+        background: rgba(0, 0, 0, 0);
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: auto;
+    border: 1px solid #ccc; 
+    z-index: 99999 !important;
+    cursor: default !important
+}
+
+#carrito::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento vertical */
+}
+
+#carrito::-webkit-scrollbar-track{
+    background: #f1f1f1; /* Color del fondo de la barra de desplazamiento */
+}
+
+#carrito::-webkit-scrollbar-thumb{
+    background: orange; /* Color de la barra de desplazamiento */
+    border-radius: 10px; /* Esquinas redondeadas de la barra */
+}
+
+#carrito::-webkit-scrollbar-thumb:hover {
+    background: darkorange; /* Color al pasar el ratón sobre la barra */
+}
+.responsive_ahora{
+    height:630px
+}
+
+.text_butacas{
+    margin-top: 10px
+}

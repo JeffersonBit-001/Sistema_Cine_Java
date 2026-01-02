@@ -1,0 +1,293 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 3 set. 2024, 00:28:28
+    Author     : JEFFERSON
+*/
+
+
+.body_form {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.7), rgba(255, 0, 0, 0.3)), url('../img/img_prueba.jpg') no-repeat center center;
+    background:
+        radial-gradient(circle at top, rgba(230, 0, 0, 0.6) 50%, rgba(0, 0, 70, 0.6) 100%), /* Reducida la opacidad del azul */
+        radial-gradient(circle at center, rgba(255, 165, 0, 0.9) 0%, rgba(255, 165, 0, 0) 50%),
+        url('../img/img_prueba2.jpg');
+    background-size: cover;
+    background-blend-mode: overlay; /* Ajusta el efecto  */
+    height: 100.04vh;
+
+    border-top: solid white 4px;
+    border-bottom: solid white 4px;
+
+}
+
+/*Form contenedor*/
+.form-container {
+    background: rgba(245, 245, 210, 0.4);
+    padding: 20px;
+    border-radius: 28px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.8);
+    max-width: 800px;
+
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.title_sug {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold; /* resaltar el gradiente */
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    -webkit-background-clip: text; /* Clipa el fondo al texto en navegadores basados en WebKit */
+    background-clip: text;
+    color: transparent; /* transparente para mostrar el gradiente */
+    display: inline-block;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+    resize: none
+}
+.form-group button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    font-weight: bold;
+}
+.form-group button:hover {
+    background-color: #0056b3;
+    color: orange;
+    font-weight: bold;
+    transition: all 1s
+}
+
+.form-group #btn{
+    background-color: #FFA500; /* Naranja */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgba(255, 165, 0, 0.9), rgba(255, 140, 0, 0.6)); /* Gradiente anaranjado */
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombreado negro */
+
+}
+
+.form-group #btn:hover {
+    background-color: rgba(255, 100, 0, 0.3); /* Naranja más transparente */
+    color: black;
+    font-weight: bold;
+    transition: all 2s;
+}
+
+/*Contenedor img y form*/
+.flex_form_img{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+/*Contenedor del form*/
+.form_display{
+    max-width: 550px;
+    width: 100%;
+    text-align: justify;
+    border-right: solid #dd5035 3px;
+    padding: 10px;
+    padding-right: 70px;
+    border-radius: 30px;
+}
+
+/*Listsas*/
+
+#list_dex{
+    list-style-type: none;
+}
+
+/*texto de div - imagenes*/
+.text_form_edit{
+    margin: 0;
+    color: white;
+    text-shadow: 0px 0px 3px black
+
+}
+
+.class_div_form{
+    margin-bottom: 40px
+}
+.class_div_form i{
+    margin-bottom: 20px
+}
+
+/*plantilla*/
+.jum_edit{
+    margin-bottom: 0 !important;
+
+}
+
+
+.edit_pie_pag{
+    margin-top: 0 !important;
+}
+
+/*text*/
+.form-group label{
+    color: black;
+    text-shadow: 0px 0px 4px gray;
+    font-weight: bold;
+}
+
+.form-group input,.form-group textArea{
+    background: rgba(255, 245, 220, 0.7) !important;
+    border-radius: 15px;
+
+    box-shadow: 0px 0px 4px 1px gray
+}
+
+
+.class_div_form {
+
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    -webkit-background-clip: text;
+
+    color: transparent;
+    padding-top: 10px
+}
+
+@media (max-width: 822px) {
+    .flex_form_img{
+        display: block
+    }
+    #list_dex{
+        display: flex
+    }
+
+    .flex_form_img{
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+
+
+    }
+
+    .form-container{
+        max-width: 550px;
+        width: 100%;
+        padding: 30px
+    }
+
+    .form_display{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border:none
+    }
+
+    #list_dex li{
+        padding-right: 7%
+    }
+}
+
+
+@media (max-width: 600px) {
+    .form-container {
+        padding: 15px;
+    }
+    .title_sug {
+        font-size: 20px;
+    }
+    .form-group input, .form-group textarea, .form-group button {
+        font-size: 14px;
+    }
+
+    .class_div_form, .text_form_edit{
+        font-size: 10px;
+        padding-right: 7%
+    }
+}
+@media (max-width: 290px) {
+    #list_dex{
+        display: block;
+        list-style-type: inherit;
+    }
+
+    .class_div_form{
+        margin-bottom: 0
+    }
+
+
+}
+
+.toast-success {
+    background-color: #28a745 !important;
+    color: white !important;
+}
+.toast-error {
+    background-color: #dc3545 !important;
+    color: white !important;
+}
+.toast-info {
+    background-color: #17a2b8 !important;
+    color: white !important;
+}
+.toast-warning {
+    background-color: #ffc107 !important;
+    color: black !important;
+}
+
+.foot_estilo{
+    margin-top: 0px !important
+}
+
+body{
+    margin: 0 !important;
+    padding: 0
+}
+
+.container-fluid{
+    margin: 0 !important;
+    padding: 0 !important
+}

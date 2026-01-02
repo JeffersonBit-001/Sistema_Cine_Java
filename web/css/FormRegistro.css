@@ -1,0 +1,196 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 30 ago. 2024, 13:31:38
+    Author     : JEFFERSON
+*/
+     /*Contenedor Formulario*/
+    .form_container {
+        max-width: 900px;
+        margin: 20px auto;
+        padding: 40px;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px 4px rgba(255, 255, 255, 0.4);
+        background: rgba(210,210,185,0.5);
+        
+        
+    }
+    
+    
+    /*contenedor todo*/
+    
+    .container_todo{
+        background: 
+    radial-gradient(circle at top, rgba(230, 0, 0, 0.6) 50%, rgba(0, 0, 70, 0.6) 100%),
+    radial-gradient(circle at center, rgba(255, 165, 0, 0.9) 0%, rgba(255, 165, 0, 0) 50%),
+    url('../img/img_prueba3.jpg');
+        background-size: cover;
+        background-blend-mode: overlay;
+        height: 120vh;
+        
+        align-content: center;
+        align-items: center;
+        
+        justify-content: center;
+        justify-items: center;
+        
+        border-bottom: solid white 3px;
+        border-top: solid white 3px
+        
+    }
+    
+    /*boton de formulario*/
+    .edit_buton{
+        background: linear-gradient(to bottom, rgba(255, 30, 0, 0.8), rgba(0, 0, 0, 0.8));
+        
+    }
+    
+    
+    
+    /*titulo form*/
+
+    
+    
+    /*DISEÑO TOP*/
+    .jum_edit{
+        margin-bottom: 0 !important;
+        
+    }
+    
+
+    #form_title {
+        text-align: center;
+        margin-bottom: 20px;
+        background: linear-gradient(to bottom, rgba(255, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+            -webkit-background-clip: text;
+            
+            color: transparent; 
+            padding-top: 10px
+        
+        
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;/*luminosidad letra*/
+        font-size: 18px;
+        color:black;
+        
+        
+    }
+    .form-group input, .form-group select {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        background-color: #cfcfcf;
+        border: none;
+        border-bottom: solid;
+        border-radius: 15px
+    }
+    .form-group input:hover, .form-group select:hover {
+        
+        outline: none;
+        border-color: #E20613;
+        transition: all 3s !important
+    }
+    
+    
+    
+    .form-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .form-row .form-group {
+        flex: 1;
+        min-width: calc(50% - 15px); /* Ajusta para 2 elementos por fila */
+    }
+    .form-row.full-width .form-group {
+        min-width: 100%;
+    }
+    .form-group input[type="submit"] {/*elementos de tipo submit*/
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    .form-group input[type="submit"]:hover {
+        background-color: #0056b3;
+        transition: all 1s !important
+    }
+    
+    
+    .form-group input[type="checkbox"] {
+    /* Espacio entre el checkbox y el texto */
+    width: 7%;
+    
+    }
+    
+    .display-check{
+        display: flex;
+         /* Aumenta el tamaño del checkbox */
+        
+    }
+    
+    .display-check input{
+        transform: scale(0.7);
+    }
+    
+    #lab-chekck{
+        width: 100%;
+        font-size: 15px !important;
+        font-weight: initial;
+        box-shadow: 0 0 0 0 white;
+        margin-bottom: 0 !important;
+        
+    }
+    
+    
+    .edit_pie_pag{
+        margin-top: 0 !important;
+    }
+    
+    @media (max-width: 768px) {
+        .form-row .form-group {
+            max-width: 100%;
+        }
+        
+        
+        
+    }
+    
+    @media (max-width: 759px){
+        .form-row .form-group{
+            min-width: 100%;
+            
+        }
+        
+        .form_container{
+            max-height: 100%;
+            height: 100%
+        }
+        
+        .container_todo{
+            max-height: 100%;
+            height: 100%
+        }
+        
+    }
+    
+    
+    
+    @media (max-width: 600px) {
+        .form-group input, .form-group select {
+            font-size: 14px;
+        }
+    }

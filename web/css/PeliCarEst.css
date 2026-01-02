@@ -1,0 +1,142 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22 set. 2024, 18:31:39
+    Author     : JEFFERSON
+*/
+
+.menu_peli {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px/* Permite que el menú se ajuste si es necesario */
+}
+
+.menu_peli > li {
+    position: relative;
+    margin: 0;
+}
+
+.menu_peli > li > a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: #333;
+    border-right: 1px solid #444;
+    width: 200px; /* Establece un ancho fijo para los elementos del menú principal */
+    text-align: center;
+}
+
+.menu_peli > li > a:hover {
+    background-color: #555;
+}
+
+.menu_peli ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #444;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 200px;
+    z-index: 5;
+    /* Asegura que los submenús tengan el mismo ancho que los elementos del menú principal */
+}
+
+.menu_peli ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    width: 100%; /* Hace que los elementos del submenú ocupen todo el ancho del contenedor */
+    box-sizing: border-box;
+   
+}
+
+
+
+
+
+/*ocultar*/
+#input-search-ser{
+    color: black;
+    text-align: justify;
+    
+    padding: 3px 5px;
+    display: block;
+    width: 300px; /* Hace que los elementos del submenú ocupen todo el ancho del contenedor */
+    box-sizing: border-box;
+    margin: 0 20px;
+    
+}
+
+
+#li_id{
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    
+}
+
+#href_id{
+   width: 60px;
+   border: none;
+   
+    
+}
+
+#href_id:hover{
+    background: none;
+    text-shadow: 0px 0px 3px white;
+    transition: all 1s
+}
+
+#ul_edit{
+    width: 400px
+}
+
+.menu_peli > #li_id:hover > #ul_edit {
+    display: none;
+}
+
+/*ocultar*/
+
+
+.menu_peli ul li a:hover {
+    background-color: #ff8000;
+}
+
+.menu_peli > li:hover > ul {
+    display: block;
+}
+
+
+
+@media (max-width: 600px) {
+    .menu_peli {
+        flex-direction: column;
+        align-items: center; /* Centra el menú verticalmente en pantallas pequeñas */
+    }
+
+    .menu_peli > li > a {
+        font-size: 14px;
+        border-right: none;
+        width: 100%; /* Asegura que los elementos del menú principal ocupen todo el ancho en pantallas pequeñas */
+    }
+
+    .menu_peli ul {
+        width: 100%; /* Asegura que los submenús ocupen todo el ancho en pantallas pequeñas */
+    }
+}
